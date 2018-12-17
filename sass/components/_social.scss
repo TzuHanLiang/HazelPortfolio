@@ -1,0 +1,27 @@
+.social {
+  &__list {
+    list-style: none;
+    width: 90%;
+    margin: 0 auto;
+  }
+  &__item {
+    display: inline-block;
+    margin: 0.5rem;
+    transition: all 0.2s;
+    &:hover {
+      transform: translateY(-2px) scale(1.01);
+    }
+  }
+
+  &__icon {
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+    background-image: linear-gradient(
+      to left,
+      $color-primary,
+      $color-primary-neutral
+    );
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+}

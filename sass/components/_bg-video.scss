@@ -1,0 +1,31 @@
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -10;
+  opacity: 0.25;
+  overflow: hidden;
+
+  &__content {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+.cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+
+  background-image: linear-gradient(
+    to right bottom,
+    rgba($color-primary, 0.15),
+    rgba($color-primary-neutral, 0.15)
+  );
+}

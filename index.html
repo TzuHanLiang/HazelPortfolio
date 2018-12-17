@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Cookie"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Sacramento"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" type="image/png" href="img/favacon.png" />
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+      integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+      crossorigin="anonymous"
+    />
+    <title>Hazel | Portfolio</title>
+  </head>
+  <body>
+    <div class="navigation">
+      <input type="checkbox" class="navigation__checkbox" id="navi-toggle" />
+
+      <label for="navi-toggle" class="navigation__button">
+        <span class="navigation__icon">&nbsp;</span>
+      </label>
+
+      <div class="navigation__background">&nbsp;</div>
+
+      <nav class="navigation__nav">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a href="#about" class="navigation__link"
+              ><span>01</span>About Me</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="#skillset" class="navigation__link"
+              ><span>02</span>My Skillset</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="#portfolios" class="navigation__link"
+              ><span>03</span>Main Portfolios</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="#blogs" class="navigation__link"><span>04</span>Blogs</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#contact" class="navigation__link"
+              ><span>05</span>Contact now</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <header class="header">
+      <div class="header__logo-box">
+        <img src="img/logo.png" alt="logo" class="header__logo" />
+      </div>
+      <div class="header__text-box">
+        <h1 class="heading-primary">
+          <span class="heading-primary--main">Hello, I'm Hazel</span>
+          <span class="heading-primary--sub">I'm a Front-end Developer</span>
+        </h1>
+
+        <a href="#portfolios" class="btn btn--white btn--animated">
+          Discover My Works
+        </a>
+      </div>
+      <div class="show">
+        <a href="#contact" class="arrow arrow--animated">
+          <i class="fas fa-angle-down"></i>
+        </a>
+      </div>
+    </header>
+    <main>
+      <section class="section-about" id="about">
+        <div class="u-center-text u-margin-bottom-lg">
+          <h2 class="heading-secondary">Things About Me</h2>
+          <div class="social">
+            <ul class="social__list">
+              <li class="social__item">
+                <a href="https://github.com/TzuHanLiang" class="social__link"
+                  ><i class="social__icon fab fa-github-square"></i
+                ></a>
+              </li>
+              <li class="social__item">
+                <a
+                  href="https://www.facebook.com/Crocos0102"
+                  class="social__link"
+                  ><i class="social__icon fab fa-facebook"></i
+                ></a>
+              </li>
+              <li class="social__item">
+                <a
+                  href="https://www.linkedin.com/in/tzu-han-liang-98a031147/"
+                  class="social__link"
+                  ><i class="social__icon fab fa-linkedin"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-1-of-2">
+            <h3 class="heading-tertiary u-margin-bottom-sm">
+               自我介紹
+            </h3>
+            <p class="paragraph">
+                我是一個不安份的化學工程師, 熱愛學習, 喜歡挑戰, 用開放的心態嘗試不一樣的新事物。 在經歷一波又一破壞式創新後, AI崛起, 大數據當道, 虛擬貨幣成為現實。 實在是不想錯過這場世紀洪流, 真心希望擠身這場全球運動, 所以乾脆放手一博, 在2018年7月遞交辭職信, 經歷了一個月的調查與研究, 我決定從前端著手, 現在是一個充滿熱情, 擁抱技術, 享受解決問題的前端工程師。
+            </p>
+            <h3 class="heading-tertiary u-margin-bottom-sm">
+                具備的能力/擅長的技能
+            </h3>
+            <p class="paragraph">
+              解決問題的能力, 多年的理工科學習背景使我成為一個訓練有素的化學工程師，這讓我具備工程設計與解決問題的能力, 擅長問對問題, 找資料, 能夠在面對未知的問題時, 有系統的分析與拆解問題, 再透過歸納與重整問題找到解決方案. 
+              英語能力: 多益成績: 910/990(聽力:490 & 閱讀:420),
+              中文能力: 母語.
+              程式技能如下.
+            
+            -->
+            </p>
+            <a href="#" class="btn-text">To See My Resume &rarr;</a>
+          </div>
+          <div class="col-1-of-2">
+            <div class="composition">
+              <img
+                src="img/me2.JPG"
+                alt="me1"
+                class="composition__photo composition__photo--p1"
+              />
+              <img
+                src="img/me3.JPG"
+                alt="me2"
+                class="composition__photo composition__photo--p2"
+              />
+              <img
+                src="img/me1.JPG"
+                alt="me3"
+                class="composition__photo composition__photo--p3"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-skills" id="skillset">
+        <div class="row">
+          <h1 class="heading-primary heading-primary--main u-center-text">
+            Skill set
+          </h1>
+          <div class="col-1-of-4">
+            <div class="skill-box">
+              <i class="skill-box__icon fas fa-code"></i>
+              <h3 class="heading-tertiary u-margin-bottom-sm">Language</h3>
+              <p class="skill-box__text">
+                熟悉 HTML5 & CSS3，能夠解決跨瀏覽器的相容性 熟悉 CSS
+                framework，如 Bootstrap / Semantic UI 能以 SASS
+                撰寫更好管理的程式碼，使用 Emmet 快速建立html架構 使用 BEM
+                命名規範讓網站架構一目了然 熟悉 flexbox, RWD 的切版方式, 熟悉
+                JavaScript (ES6)
+              </p>
+            </div>
+          </div>
+          <div class="col-1-of-4">
+            <div class="skill-box">
+              <i class="skill-box__icon fas fa-sitemap"></i>
+              <h3 class="heading-tertiary u-margin-bottom-sm">Framework</h3>
+              <p class="skill-box__text">
+                對 Express.js 有基礎概念 (MVC) React.js & Redux + firebase
+                可以註冊會員 / 登入 / 留言 / 回覆留言 / 編輯留言 / 刪除留言 /
+                分頁 / 紀錄登入狀況 / 密碼安全性(雜湊) / 防止SQL Injection等hack
+                / 套bootstrap樣式 / RWD不會跑位） 熟悉使用 ajax 串接第三方api
+                eg. 具有介接 FB Login、Google Service API 經驗
+              </p>
+            </div>
+          </div>
+          <div class="col-1-of-4">
+            <div class="skill-box">
+              <i class="skill-box__icon fas fa-database"></i>
+              <h3 class="heading-tertiary u-margin-bottom-sm">Database</h3>
+              <p class="skill-box__text">
+                Node.js / MongoDB 尚懂 Express 建立 server 熟悉 MVC 架構 使用
+                JWT 或 OAuth 做身份認證與授權 設計 RESTful API 與 DB 使用
+                Mongoose CRUD 操作 MongoDB 尚懂 Firebase
+              </p>
+            </div>
+          </div>
+          <div class="col-1-of-4">
+            <div class="skill-box">
+              <i class="skill-box__icon fas fa-toolbox"></i>
+              <h3 class="heading-tertiary u-margin-bottom-sm">Tools</h3>
+              <p class="skill-box__text">
+                熟悉 Git flow 熟悉 Chrome Dev Tool 熟悉 VS Code 熟悉 NPM, yarn
+                指令 熟悉 gulp, webpack 自動化打包 使用 JSON Server 模擬 Restful
+                API API文件閱讀能力、遇到問題會上Stackoverflow查詢並解決
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-projects" id="portfolios">
+        <div class="u-center-text u-margin-bottom-medium">
+          <h2 class="heading-secondary">Main Portfolios</h2>
+        </div>
+        <div class="row">
+          <div class="col-1-of-3">
+            <div class="card">
+              <div class="card__side card__side--front">
+                <div class="card__picture card__picture--1">&nbsp;</div>
+                <h4 class="card__heading">
+                  <span class="card__heading-span card__heading-span--1"
+                    >Yelp Camp</span
+                  >
+                </h4>
+                <div class="card__details">
+                  <ul>
+                    <li>Use NodeJS to write server-side JavaScript</li>
+                    <li>
+                      Use Express and MongoDB to create full-stack JS
+                      applications
+                    </li>
+                    <li>
+                      Use Bootstrap to create good-looking responsive layouts
+                    </li>
+                    <li>
+                      Write Javascript functions, and understand scope and
+                      higher order functions
+                    </li>
+                    <li>Difficulty: easy</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-1">
+                <!-- cta: call to action -->
+                <div class="card__cta">
+                  <div class="card__description-box">
+                    <p class="card__description-key">Techniques:</p>
+                    <p class="card__description-value">MEN Stack</p>
+                  </div>
+                  <a href="#popup-1" class="btn btn--white">More Details</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-1-of-3">
+            <div class="card">
+              <div class="card__side card__side--front">
+                <div class="card__picture card__picture--2">&nbsp;</div>
+                <h4 class="card__heading">
+                  <span class="card__heading-span card__heading-span--2"
+                    >SweetTaste</span
+                  >
+                </h4>
+                <div class="card__details">
+                  <ul>
+                    <li>output lists and conditional content</li>
+                    <li>Styling of React components</li>
+                    <li>access Http content from within React apps (AJAX)</li>
+                    <li>Using Redux for app state management</li>
+                    <li>Forms and form validation in React apps</li>
+                    <li>Authentication: using local storage</li>
+                    <li>run unit testing</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-2">
+                <div class="card__cta">
+                  <div class="card__description-box">
+                    <p class="card__description-key">Techniques:</p>
+                    <p class="card__description-value">React & Redux</p>
+                  </div>
+                  <a href="#popup-2" class="btn btn--white">More Details</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-1-of-3">
+            <div class="card">
+              <div class="card__side card__side--front">
+                <div class="card__picture card__picture--3">&nbsp;</div>
+                <h4 class="card__heading">
+                  <span class="card__heading-span card__heading-span--3"
+                    >DevConnector</span
+                  >
+                </h4>
+                <div class="card__details">
+                  <ul>
+                    <li>
+                      Building an extensive backend API with Node.js & Express
+                    </li>
+                    <li>
+                      Protecting routes/endpoints with JWT (JSON Web Tokens)
+                    </li>
+                    <li>API testing with Postman</li>
+                    <li>Integrating React with customed backend</li>
+                    <li>Building frontend to work with the API</li>
+                    <li>Using Redux for app state management</li>
+                    <li>Testing with the Redux Chrome extension</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-3">
+                <div class="card__cta">
+                  <div class="card__description-box">
+                    <p class="card__description-key">Techniques:</p>
+                    <p class="card__description-value">MERN Stack</p>
+                  </div>
+                  <a href="#popup-3" class="btn btn--white">More Details</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-blogs" id="blogs">
+        <!-- bg video -->
+        <div class="bg-video">
+          <video class="bg-video__content" autoplay muted loop>
+            <source src="img/Home_work.mp4" type="video/mp4" />
+            <source src="img/Home_work.webm" type="video/webm" />
+            Your browser does not support the video tag. I suggest you upgrade
+            your browser.
+          </video>
+        </div>
+
+        <!-- bg video cover -->
+        <div class="cover">&nbsp;</div>
+
+        <div class="u-center-text u-margin-bottom-medium">
+          <h2 class="heading-secondary">My Learning Notes & Blogs</h2>
+        </div>
+        <div class="row">
+          <div class="blog">
+            <figure class="blog__shape">
+              <img
+                src="img/header7.jpeg"
+                alt="Person on a tour"
+                class="blog__img"
+              />
+              <figcaption class="blog__caption">React Redux</figcaption>
+            </figure>
+            <div class="blog__text">
+              <h3 class="heading-tertiary u-margin-bottom-small">
+                I had the best week ever with my family
+              </h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Aperiam, ipsum sapiente aspernatur libero repellat quis
+                consequatur ducimus quam nisi exercitationem omnis earum qui.
+                Aperiam, ipsum sapiente aspernatur libero repellat quis
+                consequatur ducimus quam nisi exercitationem omnis earum qui.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="blog">
+            <figure class="blog__shape">
+              <img
+                src="img/header4.jpeg"
+                alt="Person on a tour"
+                class="blog__img"
+              />
+              <figcaption class="blog__caption">Mary Smith</figcaption>
+            </figure>
+            <div class="blog__text">
+              <h3 class="heading-tertiary u-margin-bottom-small">
+                I had the best week ever with my family
+              </h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Aperiam, ipsum sapiente aspernatur libero repellat quis
+                consequatur ducimus quam nisi exercitationem omnis earum qui.
+                Aperiam, ipsum sapiente aspernatur libero repellat quis
+                consequatur ducimus quam nisi exercitationem omnis earum qui.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="u-center-text u-margin-top-huge">
+          <a href="https://medium.com/@olivialiang_41319" class="btn-text"
+            >Read all Blogs &rarr;</a
+          >
+        </div>
+      </section>
+      <section class="section-contact" id="contact">
+        <div class="row">
+          <div class="contact">
+            <div class="contact__form">
+              <form action="#" class="form">
+                <div class="u-margin-bottom-medium">
+                  <h2 class="heading-secondary">Contact Me</h2>
+                </div>
+
+                <div class="form__group">
+                  <input
+                    type="email"
+                    class="form__input"
+                    placeholder="Email address"
+                    id="email"
+                    required
+                  />
+                  <label for="email" class="form__label">Email address</label>
+                </div>
+
+                <div class="form__group">
+                  <input
+                    type="text"
+                    class="form__input"
+                    placeholder="Messages"
+                    id="message"
+                    required
+                  />
+                  <label for="message" class="form__label">Messages</label>
+                </div>
+
+                <div class="form__group u-margin-bottom-medium">
+                  <div class="form__radio-group">
+                    <input
+                      type="radio"
+                      class="form__radio-input"
+                      id="small"
+                      name="size"
+                    />
+                    <label for="small" class="form__radio-label">
+                      <span class="form__radio-button"></span> I need a website
+                    </label>
+                  </div>
+
+                  <div class="form__radio-group">
+                    <input
+                      type="radio"
+                      class="form__radio-input"
+                      id="large"
+                      name="size"
+                    />
+                    <label for="large" class="form__radio-label">
+                      <span class="form__radio-button"></span> I am looking to
+                      hire
+                    </label>
+                  </div>
+                </div>
+
+                <div class="form__group">
+                  <button class="btn btn--primary">Send &rarr;</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__logo-box">
+        <picture class="footer__logo">
+          <img alt="Full logo" src="img/favacon.png" />
+        </picture>
+      </div>
+      <div class="row">
+        <div class="col-1-of-2">
+          <div class="footer__navigation">
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a href="#" class="footer__link">Company</a>
+              </li>
+              <li class="footer__item">
+                <a href="#contact" class="footer__link">Contact me</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Carrers</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Privacy policy</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Terms</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-1-of-2">
+          <p class="footer__copyright">
+            Built by <a href="#" class="footer__link">Hazel Liang</a> for
+            demonstrating her portfolio
+            <a href="#" class="footer__link">SweetTaste</a>. It is not her own
+            design. The original author is
+            <a href="https://twitter.com/jonasschmedtman" class="footer__link"
+              >Jonas Schmedtmann</a
+            >
+            for his online course
+            <a
+              href="https://www.udemy.com/advanced-css-and-sass/"
+              class="footer__link"
+              >Advanced CSS and Sass</a
+            >.
+          </p>
+        </div>
+      </div>
+    </footer>
+    <div class="popup" id="popup-1">
+      <div class="popup__content">
+        <div class="popup__left">
+          <div class="video">
+            <video class="video__content" autoplay muted loop>
+              <source src="img/sweetTaste.mp4" type="video/mp4" />
+              Your browser is not supported!
+            </video>
+          </div>
+        </div>
+        <div class="popup__right">
+          <a href="#portfolios" class="popup__close">&times;</a>
+          <h2 class="heading-secondary u-margin-bottom-small">Yelp Camp</h2>
+          <h3 class="heading-tertiary u-margin-bottom-small">
+            Important &ndash; some jibber jabber
+          </h3>
+          <p class="popup__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed sed
+            risus pretium quam. Aliquam sem et tortor consequat id. Volutpat
+            odio facilisis mauris sit amet massa vitae. Mi bibendum neque
+            egestas congue. Placerat orci nulla pellentesque dignissim enim sit.
+            risus pretium quam. Aliquam sem et tortor consequat id. Volutpat
+            odio facilisis mauris sit amet massa vitae. Mi bibendum neque
+            egestas congue. Placerat orci nulla pellentesque dignissim enim sit.
+          </p>
+          <div class="popup__btn-position">
+            <a href="#" class="btn btn--primary">View the website now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="popup" id="popup-2">
+      <div class="popup__content">
+        <div class="popup__left">
+          <div class="video">
+            <video class="video__content" autoplay muted loop>
+              <source src="img/sweetTaste.mp4" type="video/mp4" />
+              Your browser is not supported!
+            </video>
+          </div>
+        </div>
+        <div class="popup__right">
+          <a href="#portfolios" class="popup__close">&times;</a>
+          <h2 class="heading-secondary u-margin-bottom-small">SweetTaste</h2>
+          <h3 class="heading-tertiary u-margin-bottom-small">
+            Important &ndash; some jibber jabber
+          </h3>
+          <p class="popup__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed sed
+            risus pretium quam. Aliquam sem et tortor consequat id. Volutpat
+            odio facilisis mauris sit amet massa vitae. Mi bibendum neque
+            egestas congue. Placerat orci nulla pellentesque dignissim enim sit.
+            risus pretium quam. Aliquam sem et tortor consequat id. Volutpat
+            odio facilisis mauris sit amet massa vitae. Mi bibendum neque
+            egestas congue. Placerat orci nulla pellentesque dignissim enim sit.
+          </p>
+          <div class="popup__btn-position">
+            <a href="#" class="btn btn--primary">View the website now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="popup" id="popup-3">
+      <div class="popup__content">
+        <div class="popup__left">
+          <div class="video">
+            <video class="video__content" autoplay muted loop>
+              <source src="img/sweetTaste.mp4" type="video/mp4" />
+              Your browser is not supported!
+            </video>
+          </div>
+        </div>
+        <div class="popup__right">
+          <a href="#portfolios" class="popup__close">&times;</a>
+          <h2 class="heading-secondary u-margin-bottom-small">DevConnector</h2>
+          <h3 class="heading-tertiary u-margin-bottom-small">
+            Important &ndash; some jibber jabber
+          </h3>
+          <p class="popup__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed sed
+            risus pretium quam. Aliquam sem et tortor consequat id. Volutpat
+            odio facilisis mauris sit amet massa vitae. Mi bibendum neque
+            egestas congue. Placerat orci nulla pellentesque dignissim enim sit.
+            risus pretium quam. Aliquam sem et tortor consequat id. Volutpat
+            odio facilisis mauris sit amet massa vitae. Mi bibendum neque
+            egestas congue. Placerat orci nulla pellentesque dignissim enim sit.
+          </p>
+          <div class="popup__btn-position">
+            <a href="#" class="btn btn--primary">View the website now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="./main.js"></script>
+  </body>
+</html>
+
+<!--
+  使用 SCSS 做頁面切版。
+  串接 Firebase 的 FireStore 做為資料庫。
+  使用 Express 開發後端 API
+-->
+<!--
+  HTML / CSS
+  熟悉 HTML5 的語意標籤與 API
+  熟悉 CSS3 的 Flex 排版與動畫
+  熟悉 RWD
+  熟悉 Sass 的 SCSS 語法
+  熟悉 Bootstrap
+  熟悉 Vuetify 與 Element 等 Vue UI 框架
+  JavaScript
+  熟悉 Vue / Nuxt 與 Vuex、Vue Router
+  尚懂 React 與 Redux
+  熟悉原生 JS 陣列、物件與 DOM 操作
+  了解 JS 中的物件導向與原型繼承
+  熟悉 ES6 / ES7 語法
+  熟悉 AJAX 請求 及 RESTful API 串接
+  了解 WebSocket
+  熟悉 jQuery、Lodash 等 library
+-->
